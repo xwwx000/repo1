@@ -14,8 +14,17 @@ public class RedisTest {
 			jedis.auth("8888");
 			System.out.println(jedis.ping());
 			System.out.println(jedis.select(1));
-			jedis.set("key1", "Íõ±¦Ç¿");
+			jedis.set("key1", "æµ‹è¯•");
+
 			System.out.println(jedis.get("key1"));
+			System.out.println(jedis.get("key1"));
+
+			System.out.println(jedis.get("key1"));
+
+			System.out.println(jedis.get("key1"));
+
+			System.out.println(jedis.get("key1"));
+
 		} catch (Exception e) {
 
 		} finally {
